@@ -1,9 +1,4 @@
 #!/bin/pyhon3
-# This script automatically installs selenium using 'pip3 install selenium'.
-#
-# If you're using Windows, you'll need to install the webdriver for
-# whichever browser you using, chrome or firefox.
-
 import os
 os.system('pip3 install selenium')
 os.system('pip3 install fake-useragent')
@@ -30,7 +25,7 @@ else:
     pass
 
 print('\n\n\n\n')
-print("         Welcome to Viking's Discord script.\n")
+print("         Welcome to vProtect license script.\n")
 print("This will send info to vprotect trail every 59 days..")
 print()
 while 1:
