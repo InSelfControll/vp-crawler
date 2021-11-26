@@ -11,28 +11,6 @@ if missing:
     python = sys.executable
     subprocess.check_call([python, '-m', 'pip', 'install', * missing], 
             stdout = subprocess.DEVNULL)
-#for x in list_installed:
-    #print(x)
-    #sleepy.sleep(3)
-    #installed = os.system('pip3 freeze | cut -d"=" -f1 | grep x')
-    #installed = os.system('pip3 show list_installed[x] | grep "Name: list_installed[x]" | cut -d" " -f2')
-    #installed = os.system('pip3 list x | cut -d" " -f2')
-    #installed = subprocess.checkcall([sys.executable, '-m', 'pip3', 'install',
- #   installed = sys.modules
-  #  if x not in installed:
-   #     print("Starting installation")
-#        os.system('pip3 install selenium')
- #       os.system('pip3 install fake-useragent')
-  #      os.system('pip3 install pypasser')
-   #     os.system('pip3 install pyvirtualdisplay')
-    #    os.system('pip3 install webdriver-manager')
-
-if os.name == 'nt':
-    os.system('cls')
-else:
-    os.system('clear')
-    pass
-
 
 from datetime import datetime
 from selenium import webdriver
